@@ -1,0 +1,39 @@
+site_name: Nutrition Wiki for Seniors
+site_description: A personal knowledge base on nutrition science for adults over 75.
+site_author: Michael Rees
+
+docs_dir: wiki
+
+theme:
+  name: material
+  palette:
+    primary: teal
+    accent: green
+  features:
+    - navigation.top
+    - search.suggest
+    - search.highlight
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+  - Source Summaries:
+    - ZOE Gut Health Guide 2024: gut-health-guide-zoe-2024.md
+    - ZOE Gut Health Guide UK: gut-health-guide-zoe-uk.md
+    - Are All UPFs Equally Bad?: are-all-upfs-equally-bad.md
+    - Better Breakfast Guide: better-breakfast-guide-zoe.md
+  - Concept Pages:
+    - Gut Microbiome: gut-microbiome.md
+    - Plant Diversity: plant-diversity.md
+    - Dietary Fibre: dietary-fibre.md
+    - Fermented Foods: fermented-foods.md
+    - Polyphenols: polyphenols.md
+    - Ultra-Processed Foods: ultra-processed-foods.md
+    - NOVA Classification: nova-classification.md
+    - ZOE Processed Food Risk Scale: zoe-processed-food-risk-scale.md
+    - Blood Sugar: blood-sugar.md
+  - Recipes:
+    - Gut-Friendly Recipes: gut-friendly-recipes.md
+    - Breakfast Recipes: breakfast-recipes.md
